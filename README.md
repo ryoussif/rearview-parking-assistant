@@ -1,7 +1,4 @@
-# Rearview Parking Assistant
-
-**Final Project – Winter 2025**  
-**By: Regina Youssif & Ferdaws Alriashi**
+# Rearview Parking Assistant 
 
 ---
 
