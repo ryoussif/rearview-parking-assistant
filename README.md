@@ -5,13 +5,13 @@
 
 ---
 
-## 🛠 Overview
+## Overview
 
 The Rearview Parking Assistant is an embedded system designed to enhance vehicle safety during reverse driving. Using a **TM4C123G microcontroller**, **HC-SR04 ultrasonic sensor**, and **HC-05 Bluetooth module**, the system detects obstacles, calculates their approach speed, and alerts users both visually and wirelessly.
 
 ---
 
-## 📦 Features
+## Features
 
 - Real-time obstacle detection
 - Speed calculation of approaching objects
@@ -22,7 +22,7 @@ The Rearview Parking Assistant is an embedded system designed to enhance vehicle
 
 ---
 
-## 🔧 Hardware Components
+## Hardware Components
 
 - TM4C123G LaunchPad (Tiva C Series)
 - HC-SR04 Ultrasonic Sensor
@@ -32,7 +32,7 @@ The Rearview Parking Assistant is an embedded system designed to enhance vehicle
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Distance Measurement**  
    The ultrasonic sensor is triggered every 200 ms. Echo pulse width is measured using **Timer0A** in input capture mode.
@@ -51,7 +51,7 @@ The Rearview Parking Assistant is an embedded system designed to enhance vehicle
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 - **Polling-based control loop**:
   - Distance trigger and capture
@@ -66,7 +66,7 @@ The Rearview Parking Assistant is an embedded system designed to enhance vehicle
 
 ---
 
-## ✅ Testing & Validation
+## Testing & Validation
 
 - **Distance Accuracy**:  
   Verified using a ruler. System readings matched manual measurements.
@@ -82,25 +82,7 @@ The Rearview Parking Assistant is an embedded system designed to enhance vehicle
 
 ---
 
-## 📚 Learning Outcomes
-
-- Real-time embedded systems design with polling and timers
-- UART communication and Bluetooth interfacing
-- Sensor calibration and signal reliability
-- Modular design and hardware-software integration
-- Debugging complex embedded behavior through iterative testing
-
----
-
-## 🚀 Future Improvements
-
-- Interrupt-driven signal processing for improved accuracy
-- Mobile app interface for richer user interaction
-- CAN bus integration for full automotive system compatibility
-
----
-
-## 🧰 Tools & Libraries
+## Tools & Libraries
 
 - Keil uVision IDE  
 - TivaWare Peripheral Libraries  
