@@ -1,5 +1,3 @@
-# rearview-parking-assistant
-
 # Rearview Parking Assistant
 
 **Final Project – Winter 2025**  
